@@ -7,7 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class WebPageTest {
-    public static void main(String args[]) {
+    @Test
+    public void main() {
         WebDriver driver = new ChromeDriver();
         driver.get("https:/hianime.to/home");
         driver.manage().window().maximize();
